@@ -22,5 +22,5 @@ systemctl enable catalogue
 systemctl restart catalogue
 
 dnf install mongodb-mongosh -y
-mongosh --host localhost </app/db/master-data.js
+mongosh --host mongo-dev.devopsb244.online </app/db/master-data.js
 
